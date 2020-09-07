@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Portfolio Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Template css Files -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
+</head>
+<body>
+<!--Main Container-->
+  <div class="main-container">
+    <!--Aside-->
+    <div class="aside" >
+      <!--Logo-->
+      <div class="logo">
+        <a href="#">Anirudh</a>
+      </div>
+      <!--Nav Toggler Btn-->
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <!--Navbar-->
+      <ul class="nav">
+        <li><a href="#home" id="home-link" class="active" onclick="setActive('home')"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#about" id="about-link" onclick="setActive('about')"><i class="fa fa-user"></i> About</a></li>
+        <li><a href="#project" id="project-link" onclick="setActive('project')"><i class="fa fa-briefcase"></i> Projects</a></li>
+        <li><a href="#blog" id="blog-link" onclick="setActive('blog')"><i class="fa fa-envelope"></i> Blogs</a></li>
+        <li><a href="#contact" id="contact-link" onclick="setActive('contact')"><i class="fa fa-comments"></i> Contact</a></li>
+      </ul>
+    </div>
+    <!--Aside End-->
+    <!--Main Content-->
+    <div class="main-content">
+      <!--Home Section-->
+      <section class="home section" id="home">
+        <div class="container">
+          <div class="intro">
+            <img src="images/profile.jpg" alt="profile" class="shadow-dark">
+            <h1>Anirudh Sridhar</h1>
+            <p>I'm a Data Analyst</p>
+            <div class="social-links">
+              <a href="https://twitter.com/Anirudh_1905" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/anirudhsridhar1905" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/anirudh_sridhar_1905" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="https://github.com/Anirudh1905" target="_blank"><i class="fa fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/anirudh-sridhar-1905" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Home Section ends-->
+      <!--About Section-->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>Hi ! I am Anirudh Sridhar</h3>
+                  <p>
+                    I am an initiative-taking and fast learning individual seeking an opportunity to work for an organization in the field
+                    of Data Science and Machine Learning which provides me the opportunity to improve my skills and knowledge to grow along
+                    with the organization objective.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="personal-info padd-15">
+                  <div class="row">
+                    <div class="r-left">
+                      <div class="info-item padd-15">
+                        <p>Birthday : <span>19 May 2000</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email : <span>anirudhsridhar1905@gmail.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Degree : <span>B.Tech</span></p>
+                      </div>
+                    </div>
+                    <div class="r-right">
+                      <div class="info-item padd-15">
+                        <p>Age : <span>20</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Mobile : <span>+91 9687283596</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>City : <span>Chennai</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <a href="https://drive.google.com/uc?export=download&id=139mHee2zUXWzgeDkHuJwvXc0xpJkRUKQ" class="btn" >Download CV</a>
+                      <a href="#" class="btn">Hire Me</a>
+                    </div>
+                  </div>                
+                </div>
+                <div class="skills padd-15">
+                  <div class="row">
+                    <div class="skill-item padd-15">
+                      <h5>Data Analysis</h5>
+                      <div class="progress">                     
+                        <div class="progress-in" style="width: 90%"></div>
+                        <div class="skill-percent">90%</div>
+                      </div> 
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Data Visualization</h5>
+                      <div class="progress">                     
+                        <div class="progress-in" style="width: 85%"></div>
+                        <div class="skill-percent">85%</div>
+                      </div> 
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Deep Learning</h5>
+                      <div class="progress">                     
+                        <div class="progress-in" style="width: 80%"></div>
+                        <div class="skill-percent">80%</div>
+                      </div> 
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Machine Learning</h5>
+                      <div class="progress">                     
+                        <div class="progress-in" style="width: 75%"></div>
+                        <div class="skill-percent">75%</div>
+                      </div> 
+                    </div>
+                  </div>                 
+                </div>
+              </div>
+              <div class="row">
+                <div class="education padd-15">
+                  <h3 class="title">Education</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!--timeline item-->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h4 class="timeline-title  ">B.Tech in Computer Science Engineering</h4>
+                          <div class="row padd-15">
+                            <h6 class="timeline-name">SRM University, Chennai</h6>
+                            <h6 class="timeline-date">2018 - 2022</h6>
+                          </div>
+                          <p class="timeline-text">I am currently studying here.</p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h4 class="timeline-title">Higher Secondary Education</h4>
+                          <div class="row padd-15">
+                            <h6 class="timeline-name">Citizen's Higher Secondary School, Surat</h6>
+                            <h6 class="timeline-date">2016 - 2018</h6>
+                          </div>
+                          <p class="timeline-text">I am currently studying here.</p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h4 class="timeline-title">Senior Secondary Education</h4>
+                          <div class="row padd-15">
+                            <h6 class="timeline-name">ST. Marks Higher Secondary School, Surat</h6>
+                            <h6 class="timeline-date">2015 - 2016</h6>
+                          </div>
+                          <p class="timeline-text">I am currently studying here.</p>
+                        </div>
+                        <!--timeline item ends-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="experience padd-15">
+                  <h3 class="title">Experience</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!--timeline item-->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h4 class="timeline-title">Research and Data Analysis Intern</h4>
+                          <div class="row padd-15">
+                            <h6 class="timeline-name">eArth Samvarta Foundation</h6>
+                            <h6 class="timeline-date">06/2020 - 09/2020</h6>
+                          </div>
+                          <p class="timeline-text">Working on Cleaning and Analyzing the migrant worker data of Basti district in UP which was around 35K rows.</p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h4 class="timeline-title">Data Science Intern</h4>
+                          <div class="row padd-15">
+                            <h6 class="timeline-name">The Spark Foundation</h6>
+                            <h6 class="timeline-date">07/2020 - 08/2020</h6>
+                          </div>
+                          <p class="timeline-text">Created Machine Learning models for the Iris dataset and prepared Dashboard for the Superstore data using Tableau.</p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h4 class="timeline-title">Data Analysis Intern</h4>
+                          <div class="row padd-15">
+                            <h6 class="timeline-name">The Shaadi Times</h6>
+                            <h6 class="timeline-date">05/2020 - 06/2020</h6>
+                          </div>
+                          <p class="timeline-text">Worked on Analyzing the current literacy trends and predicted future trends by using ML algorithms.</p>
+                        </div>
+                        <!--timeline item ends-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--About Section ends-->
+      <!--Project Section-->
+      <section class="project section" id="project">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Projects</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="project-filter padd-15">
+              <button type="button" class="active" data-filter="all">All</button>
+              <button type="button" data-filter="eda">EDA</button>
+              <button type="button" data-filter="ml">ML</button>
+              <button type="button" data-filter="dl">DL</button>
+            </div>
+          </div>
+          <div class="row">
+            <!--Project Item-->
+            <div class="project-item padd-15" data-category="dl">
+              <div class="project-item-inner shadow-dark">
+                <div class="project-img">
+                  <img src="images/Project images/asl.png" alt="project1">
+                </div>
+                <div class="project-info">
+                  <h4>American Sign Language</h4>
+                  <div class="icon" onclick="navGit('American-Sign-Language')">
+                    <i class="fa fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Project Item ends-->
+            <!--Project Item-->
+            <div class="project-item padd-15" data-category="dl">
+              <div class="project-item-inner shadow-dark">
+                <div class="project-img">
+                  <img src="images/Project images/fknews.jpg" alt="project">
+                </div>
+                <div class="project-info">
+                  <h4>Fake News Classifier</h4>
+                  <div class="icon" onclick="navGit('Fake-News-Classifier')">
+                    <i class="fa fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Project Item ends-->
+            <!--Project Item-->
+            <div class="project-item padd-15" data-category="ml">
+              <div class="project-item-inner shadow-dark">
+                <div class="project-img">
+                  <img src="images/Project images/chennai.jpeg" alt="project">
+                </div>
+                <div class="project-info">
+                  <h4>Chennai Neighbourhood</h4>
+                  <div class="icon" onclick="navGit('Chennai-Neighbourhood-Analysis')">
+                    <i class="fa fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Project Item ends-->
+            <!--Project Item-->
+            <div class="project-item padd-15" data-category="ml">
+              <div class="project-item-inner shadow-dark">
+                <div class="project-img">
+                  <img src="images/Project images/loan.jpg" alt="project">
+                </div>
+                <div class="project-info">
+                  <h4>Loan Predictor</h4>
+                  <div class="icon" onclick="navGit('Loan-Predictor')">
+                    <i class="fa fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Project Item ends-->
+            <!--Project Item-->
+            <div class="project-item padd-15" data-category="ml">
+              <div class="project-item-inner shadow-dark">
+                <div class="project-img">
+                  <img src="images/Project images/titanic.jpg" alt="project">
+                </div>
+                <div class="project-info">
+                  <h4>Titanic Survivors</h4>
+                  <div class="icon" onclick="navGit('Titanic-Survivor')">
+                    <i class="fa fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Project Item ends-->
+            <!--Project Item-->
+            <div class="project-item padd-15" data-category="eda">
+              <div class="project-item-inner shadow-dark">
+                <div class="project-img">
+                  <img src="images/Project images/house.jpg" alt="project">
+                </div>
+                <div class="project-info">
+                  <h4>House Sales Analysis</h4>
+                  <div class="icon" onclick="navGit('House-Sales-Analysis')">
+                    <i class="fa fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Project Item ends-->
+            <!--Project Item-->
+            <div class="project-item padd-15" data-category="eda">
+              <div class="project-item-inner shadow-dark">
+                <div class="project-img">
+                  <img src="images/Project images/worker.jpg" alt="project">
+                </div>
+                <div class="project-info">
+                  <h4>Migrant Worker Analysis</h4>
+                  <div class="icon" onclick="navGit('Migrant_Worker_Analysis')">
+                    <i class="fa fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Project Item ends-->
+            <!--Project Item-->
+            <div class="project-item padd-15" data-category="eda">
+              <div class="project-item-inner shadow-dark">
+                <div class="project-img">
+                  <img src="images/Project images/us.jfif" alt="project">
+                </div>
+                <div class="project-info">
+                  <h4>US Performance Dashboard</h4>
+                  <div class="icon" onclick="navtab()">
+                    <i class="fa fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Project Item ends-->
+            <!--Project Item-->
+            <div class="project-item padd-15" data-category="eda">
+              <div class="project-item-inner shadow-dark">
+                <div class="project-img">
+                  <img src="images/Project images/crime.jfif" alt="project">
+                </div>
+                <div class="project-info">
+                  <h4>Crime in San Francisco</h4>
+                  <div class="icon" onclick="navGit('Crime-rate-in-San-Francisco')">
+                    <i class="fa fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Project Item ends-->
+          </div>
+        </div>
+      </section>
+      <!--Blog Section-->
+      <section class="blog section">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Blogs</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!--blog item-->
+            <div class="blog-item padd-15">
+              <div class="blog-item-inner shadow-dark">
+                <div class="blog-img">
+                  <img src="images/blog/chennai-neighbourhood-analysis-2.png" alt="blog">
+                  <div class="blog-date">
+                    August 2020
+                  </div>
+                </div>
+                <div class="blog-info">
+                  <h4 class="blog-title">Chennai Neighbourhood Analysis</h4>
+                  <p class="blog-description">This is a blog on my project called Chennai Neighbourhood Analysis. The main objective of the project is to find an ideal place for the hawkers to sell their items so that they could get maximum profit.</p>
+                  <p class="blog-tags">Tags : <span>Data Science, ML</span></p>
+                </div>
+              </div>
+            </div>
+            <!--blog item ends-->
+            <!--blog item-->
+            <div class="blog-item padd-15">
+              <div class="blog-item-inner shadow-dark">
+                <div class="blog-img">
+                  <img src="images/blog/education1.png" alt="blog">
+                  <div class="blog-date">
+                    July 2020
+                  </div>
+                </div>
+                <div class="blog-info">
+                  <h4 class="blog-title">Overhauling of Education System</h4>
+                  <p class="blog-description">This article shows the effect of Coronavirus on our education system and the necessary changes which has to be udertaken to make our education system immune against the deadly Coronavirus.</p>
+                  <p class="blog-tags">Tags : <span>Data Analytics, Education, ML</span></p>
+                </div>
+              </div>
+            </div>
+            <!--blog item ends-->
+          </div>
+        </div>
+      </section>
+      <!--Blog Section ends-->
+      <!--Contact Section-->
+      <section class="contact section">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!--Contact info item-->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-phone"></i></div>
+              <h4>Call</h4>
+              <p>+91 9687283596</p>
+            </div>
+            <!--Contact info item ends-->
+            <!--Contact info item-->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-map-marker"></i></div>
+              <h4>Address</h4>
+              <p>Chennai, India</p>
+            </div>
+            <!--Contact info item ends-->
+            <!--Contact info item-->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-envelope"></i></div>
+              <h4>Email</h4>
+              <p>anirudhsridhar1905@gmail.com</p>
+            </div>
+            <!--Contact info item ends-->
+          </div>
+          <!--Contact form-->
+          <div class="row">
+            <form class="contact-form padd-15">
+              <div class="row">
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name*">
+                  </div>
+                </div>
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email*">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Subject*">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <textarea class="form-control" placeholder="Your Message..."></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 padd-15">
+                  <div class="form-group">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!--Contact Section ends-->
+    </div>
+    <!--Main Content ends-->
+  </div>
+  <!--Main Container ends-->
+  <!--Template JS-->
+  <script src="js/script.js"></script>
+</body>
+</html>
+
