@@ -44,32 +44,6 @@ input,textarea,select{
     overflow-y: auto; */
 }
 
-/* .section .active{
-    z-index: 2;
-    opacity: 1;
-    animation: slideSection 1s ease;
-    -webkit-animation: slideSection 1s ease;
-}
-@-webkit-keyframes slideSection{
-    0%{
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
-    }
-    100%{
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-    }
-}
-@keyframes slideSection{
-    0%{
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
-    }
-    100%{
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-    }
-} */
 @keyframes slideSection{
     0%{
         /* -webkit-transform: translateX(100%); */
@@ -208,7 +182,7 @@ input,textarea,select{
 .preloader .loader{
     height: 40px;
     width: 40px;
-    border: 4px solid #e3e3e3;
+    border: 4px solid #FF4400;
     border-radius: 50%;
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
@@ -241,7 +215,7 @@ input,textarea,select{
     width: 270px;
     background-color: #222222;
     position: fixed;
-    height: 100%;
+    height: 100vh;
     left:0;
     top:0;
     z-index: 10;
@@ -314,28 +288,7 @@ input,textarea,select{
 .nav-close .fa{
     font-size: 28px;
 }
-/* .nav-toggler span{
-    height: 2px;
-    width: 18px;
-    display: inline-block;
-    position: relative;
-}
-.nav-toggler span::before{
-    content: '';
-    height: 2px;
-    width: 18px;
-    position: absolute;
-    top: -6px;
-    left: 0;
-}
-.nav-toggler span::after{
-    content: '';
-    height: 2px;
-    width: 18px;
-    position: absolute;
-    top: 6px;
-    left: 0;
-} */
+
 .aside .nav{
     margin: 80px 0;
     list-style: none;

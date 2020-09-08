@@ -50,26 +50,11 @@ function navmed(name) {
 function navtab(){
     window.open('https://public.tableau.com/profile/anirudh.sridhar#!/vizhome/USPerformanceDashboard/USPerformanceDashboard')
 }
-// var previd = 'home';
-// function setActive(id) {
-//     document.getElementById(previd+"-link").classList.remove('active')
-//     document.getElementById(id+"-link").classList.add('active')
-//     previd = id;
-// }
-
-//Aside Navbar
-const nav=document.querySelector(".nav"),
-navList=nav.querySelectorAll("li"),
-totalNavList=navList.length;
-
-for(let i=0;i<totalNavList;i++){
-    const a=navList[i].querySelector("a");
-    a.addEventListener("click",function(){
-        for(let j=0;j<totalNavList;j++){
-            navList[j].querySelector("a").classList.remove("active");
-        }
-    this.classList.add("active");
-    })
+var previd = 'home';
+function setActive(id) {
+    document.getElementById(previd+"-link").classList.remove('active')
+    document.getElementById(id+"-link").classList.add('active')
+    previd = id;
 }
 
 //hamburger
@@ -82,4 +67,3 @@ document.querySelector('.nav-close').addEventListener('click', () => {
     document.querySelector('.aside').classList.remove('open')
     document.querySelector('.aside').classList.add('close')
 })
-
