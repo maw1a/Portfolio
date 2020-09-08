@@ -11,32 +11,50 @@
   <meta name="theme-color" content="#000000">
   <title>Anirudh Sridhar</title>
   <meta charset="utf-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
    <!-- Template css Files -->
 	<link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
 </head>
 <body>
+  <!--Preloader-->
+  <div class="preloader">
+    <div class="loader">
+    </div>
+  </div>
+  <!--Preloader ends-->
 <!--Main Container-->
   <div class="main-container">
+    <!--Nav Toggler Btn-->
+    <div class="nav-toggler">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
     <!--Aside-->
     <div class="aside" >
+      <div class="nav-close">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+      </div>
       <!--Logo-->
       <div class="logo">
         <a href="#">Anirudh</a>
       </div>
-      <!--Nav Toggler Btn-->
-      <div class="nav-toggler">
-        <span></span>
-      </div>
       <!--Navbar-->
       <ul class="nav">
+        <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+        <li><a href="#project"><i class="fa fa-briefcase"></i> Projects</a></li>
+        <li><a href="#blog"><i class="fab fa-blogger-b"></i> Blogs</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+      </ul>
+      <!-- <ul class="nav">
         <li><a href="#home" id="home-link" class="active" onclick="setActive('home')"><i class="fa fa-home"></i> Home</a></li>
         <li><a href="#about" id="about-link" onclick="setActive('about')"><i class="fa fa-user"></i> About</a></li>
         <li><a href="#project" id="project-link" onclick="setActive('project')"><i class="fa fa-briefcase"></i> Projects</a></li>
         <li><a href="#blog" id="blog-link" onclick="setActive('blog')"><i class="fa fa-envelope"></i> Blogs</a></li>
         <li><a href="#contact" id="contact-link" onclick="setActive('contact')"><i class="fa fa-comments"></i> Contact</a></li>
-      </ul>
+      </ul> -->
     </div>
     <!--Aside End-->
     <!--Main Content-->
@@ -49,11 +67,11 @@
             <h1>Anirudh Sridhar</h1>
             <p>I'm a Data Analyst</p>
             <div class="social-links">
-              <a href="https://twitter.com/Anirudh_1905" target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href="https://www.facebook.com/anirudhsridhar1905" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a href="https://www.instagram.com/anirudh_sridhar_1905" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="https://twitter.com/Anirudh_19051" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/anirudhsridhar19051" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/anirudh_sridhar_19051" target="_blank"><i class="fa fa-instagram"></i></a>
               <a href="https://github.com/Anirudh1905" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/anirudh-sridhar-1905" target="_blank"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/anirudh-sridhar-19051" target="_blank"><i class="fa fa-linkedin"></i></a>
             </div>
           </div>
         </div>
@@ -108,7 +126,7 @@
                   <div class="row">
                     <div class="buttons padd-15">
                       <a href="https://drive.google.com/uc?export=download&id=139mHee2zUXWzgeDkHuJwvXc0xpJkRUKQ" class="btn" >Download CV</a>
-                      <a href="#" class="btn">Hire Me</a>
+                      <a href="#contact" class="btn">Hire Me</a>
                     </div>
                   </div>                
                 </div>
@@ -159,7 +177,8 @@
                             <h6 class="timeline-name">SRM University, Chennai</h6>
                             <h6 class="timeline-date">2018 - 2022</h6>
                           </div>
-                          <p class="timeline-text">I am currently studying here.</p>
+                          <p class="timeline-text">I have scored 9.9 C.G.P.A in my academics and have got scolarship for academic excellence.
+                           <br>I have won the award for the Best Physics Project in Techknow event conducted by SRM.</p>
                         </div>
                         <div class="timeline-item">
                           <div class="circle-dot"></div>
@@ -168,7 +187,7 @@
                             <h6 class="timeline-name">Citizen's Higher Secondary School, Surat</h6>
                             <h6 class="timeline-date">2016 - 2018</h6>
                           </div>
-                          <p class="timeline-text">I am currently studying here.</p>
+                          <p class="timeline-text">I have scored 80% in the Science Stream(PCM).</p>
                         </div>
                         <div class="timeline-item">
                           <div class="circle-dot"></div>
@@ -177,7 +196,7 @@
                             <h6 class="timeline-name">ST. Marks Higher Secondary School, Surat</h6>
                             <h6 class="timeline-date">2015 - 2016</h6>
                           </div>
-                          <p class="timeline-text">I am currently studying here.</p>
+                          <p class="timeline-text">I have scored 87% in 10th.</p>
                         </div>
                         <!--timeline item ends-->
                       </div>
@@ -384,7 +403,7 @@
         </div>
       </section>
       <!--Blog Section-->
-      <section class="blog section">
+      <section class="blog section" id="blog">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
@@ -393,7 +412,7 @@
           </div>
           <div class="row">
             <!--blog item-->
-            <div class="blog-item padd-15">
+            <div class="blog-item padd-15" onclick="navmed('chennai-neighbourhood-analysis-a1c95fd7580')">
               <div class="blog-item-inner shadow-dark">
                 <div class="blog-img">
                   <img src="images/blog/chennai-neighbourhood-analysis-2.png" alt="blog">
@@ -410,7 +429,7 @@
             </div>
             <!--blog item ends-->
             <!--blog item-->
-            <div class="blog-item padd-15">
+            <div class="blog-item padd-15" onclick="navmed('overhauling-of-education-system-5895068ecdae')">
               <div class="blog-item-inner shadow-dark">
                 <div class="blog-img">
                   <img src="images/blog/education1.png" alt="blog">
@@ -431,7 +450,7 @@
       </section>
       <!--Blog Section ends-->
       <!--Contact Section-->
-      <section class="contact section">
+      <section class="contact section" id="contact">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">

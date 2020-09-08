@@ -7,7 +7,8 @@
     border-bottom: 4px solid #ec1839;
     border-right: 4px solid #ec1839;
 }
-
+.nav-toggler .fa,
+.nav-close .fa,
 .contact .contact-info-item .icon .fa,
 .project .project-item .project-info .icon .fa,
 .project .project-filter button.active,
