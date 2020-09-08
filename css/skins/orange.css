@@ -1,11 +1,11 @@
 .aside .logo a::before{
-    border-top: 4px solid #ec1839;
-    border-left: 4px solid #ec1839;
+    border-top: 4px solid #FF4400;
+    border-left: 4px solid #FF4400;
 }
 
 .aside .logo a::after{
-    border-bottom: 4px solid #ec1839;
-    border-right: 4px solid #ec1839;
+    border-bottom: 4px solid #FF4400;
+    border-right: 4px solid #FF4400;
 }
 .nav-toggler .fa,
 .nav-close .fa,
@@ -14,7 +14,7 @@
 .project .project-filter button.active,
 .aside .nav li a:hover,
 .aside .nav li a.active{
-    color: #ec1839;
+    color: #FF4400;
 }
 
 .btn,
@@ -28,9 +28,9 @@
 .aside .nav-toggler span::before,
 .aside .nav-toggler span::after,
 .home .intro .social-links a{
-   background-color: #ec1839; 
+   background-color: #FF4400; 
 }
 
 .project .project-filter button.active{
-    border-color: #ec1839;
+    border-color: #FF4400;
 }

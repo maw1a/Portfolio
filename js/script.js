@@ -6,9 +6,7 @@ window.addEventListener("load",function(){
     },1000)
 })
 
-
 //Project item filter
-
 const filterContainer=document.querySelector(".project-filter"),
 filterBtns=filterContainer.children,
 totalFilterBtn=filterBtns.length,
@@ -58,10 +56,11 @@ function navtab(){
 //     document.getElementById(id+"-link").classList.add('active')
 //     previd = id;
 // }
+
 //Aside Navbar
 const nav=document.querySelector(".nav"),
-    navList=nav.querySelectorAll("li"),
-    totalNavList=navList.length;
+navList=nav.querySelectorAll("li"),
+totalNavList=navList.length;
 
 for(let i=0;i<totalNavList;i++){
     const a=navList[i].querySelector("a");
@@ -73,6 +72,7 @@ for(let i=0;i<totalNavList;i++){
     })
 }
 
+//hamburger
 document.querySelector('.nav-toggler').addEventListener('click', () => {
     document.querySelector('.aside').classList.remove('close')
     document.querySelector('.aside').classList.add('open')
